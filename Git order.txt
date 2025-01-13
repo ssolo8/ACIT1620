@@ -1,0 +1,50 @@
+Git order
+
+PS C:\Users\SheaS\OneDrive\Documents\Desktop\BCIT\ACIT1620> git add *
+PS C:\Users\SheaS\OneDrive\Documents\Desktop\BCIT\ACIT1620> git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   Notes.txt
+        new file:   Week1/For Fun
+        new file:   Week1/Images/blue.jpg
+        new file:   Week1/Images/green.jpg
+        new file:   Week1/Images/red.jpg
+        new file:   Week1/Index.html
+        new file:   Week1/PC clean.jpg
+        new file:   Week1/SheaSolowayLab1.html
+        new file:   Week1/Starbuzz.html
+        new file:   Week1/dancedance.png
+        new file:   Week1/directions.html
+        new file:   Week1/elixirs.html
+        new file:   Week1/lounge.html
+
+PS C:\Users\SheaS\OneDrive\Documents\Desktop\BCIT\ACIT1620> git commit -m "made lounge files"
+[master b607998] made lounge files
+ 13 files changed, 103 insertions(+)
+ create mode 100644 Notes.txt
+ create mode 100644 Week1/For Fun
+ create mode 100644 Week1/Images/blue.jpg
+ create mode 100644 Week1/Images/green.jpg
+ create mode 100644 Week1/Images/red.jpg
+ create mode 100644 Week1/Index.html
+ create mode 100644 Week1/PC clean.jpg
+ create mode 100644 Week1/SheaSolowayLab1.html
+ create mode 100644 Week1/Starbuzz.html
+ create mode 100644 Week1/dancedance.png
+ create mode 100644 Week1/directions.html
+ create mode 100644 Week1/elixirs.html
+ create mode 100644 Week1/lounge.html
+PS C:\Users\SheaS\OneDrive\Documents\Desktop\BCIT\ACIT1620> git push
+Enumerating objects: 18, done.
+Counting objects: 100% (18/18), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (16/16), 37.40 KiB | 12.47 MiB/s, done.
+Total 16 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/ssolo8/ACIT1620LAB
+   b480c18..b607998  master -> master
+PS C:\Users\SheaS\OneDrive\Documents\Desktop\BCIT\ACIT1620>
