@@ -1,0 +1,59 @@
+@media screen and (min-device-width: 481px) {
+    #gurantee {
+        margin-right: 250px;
+    }
+}
+
+@media screen and (max-device-width: 480px) {
+    #gurantee {
+        margin-right: 30px;
+    }
+}
+
+@media pring {
+    body {
+        font-family: 'Times New Roman', Times, serif;
+    }
+}
+body {
+    font-size: small;
+    font-family: verdana, helvita;
+    line-height: 1.6em;
+}
+
+h1, h2 {
+    color: dark pink;
+}
+
+h1 {
+    font: 150%;
+}
+
+h2 {
+    font-size: 130%;
+}
+#guarantee {
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+    background-color: pink;
+    padding: 5px;
+    padding-right: 50px;
+    margin: 30px;
+    margin-right: 750px;
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    border-top-color: black;
+    border-style: dashed;
+    border-width: thick;
+    border-color: green;
+    border-radius: 15px;
+
+}
+#music {
+    border-color: black;
+    border: width 5px;
+    border-style: solid;
+    
+}

@@ -1,0 +1,64 @@
+* {
+    margin: 0 0;
+}
+
+body {background-color: lightgray;}
+
+h1 {
+    color: white;
+    text-align:center;
+}
+#header {
+    
+    border-color: darkslategrey;
+    border-width: 35px;
+    border-style: solid;
+    background-color: darkslategrey;
+
+}
+
+#about-me {
+    margin-top: 100px;
+    border-style:double;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+
+}
+
+#skills {
+    border-style: dashed;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#projects {
+    border-style:dotted;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+#footer {
+    margin-top: 50px;
+    background-color: darkslategrey;
+
+}
+h3, h3, h3 {
+    text-align:center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: x-large;
+}
+
+ul {
+    font-family: 'Times New Roman', Times, serif;
+    
+    font-size: x-large;
+}
